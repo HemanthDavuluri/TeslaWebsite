@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
+import MenuIcon from "@material-ui/icons/Menu";
 import teslaLogoSmall from "../assets/teslaLogoSmall.svg";
 function Header() {
   return (
@@ -8,7 +9,7 @@ function Header() {
         <img src={teslaLogoSmall} alt="logo" />
       </div>
       <div className="header-center">
-        <p>MODEL 5</p>
+        <p>MODEL S</p>
         <p>MODEL 3</p>
         <p>MODEL X</p>
         <p>MODEL Y</p>
@@ -16,9 +17,10 @@ function Header() {
         <p>SOLAR PANNELS</p>
       </div>
       <div className="header-right">
-          <p>SHOP</p>
-          <p>TESLA ACCOUNT</p>
-          <p>H</p>
+        <p>SHOP</p>
+        <p>TESLA ACCOUNT</p>
+
+        <MenuIcon />
       </div>
     </div>
   );
